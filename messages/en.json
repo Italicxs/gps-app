@@ -1,0 +1,27 @@
+{
+  "IndexPage": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {ES} en {EN} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "home",
+    "about": "about",
+    "services": "services",
+    "solutions": "solutions",
+    "walk": "3d walkthrought",
+    "processes": "processes",
+    "contact": "contact us"
+  },
+  "AboutPage": {
+    "title": "About us"
+  },
+  "Hero": {
+    "title": "gas solutions & designs",
+    "description": "Efficiency at every connection: Discover our gas plumbing solutions.",
+    "button": "Discover"
+  }
+
+}

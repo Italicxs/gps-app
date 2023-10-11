@@ -1,0 +1,26 @@
+{
+    "IndexPage": {
+      "title": "next-intl ejemplo"
+    },
+    "LocaleSwitcher": {
+      "label": "Cambiar lenguaje",
+      "locale": "{locale, select, es {ES} en {EN} other {Unknown}}"
+    },
+    "Navigation": {
+      "home": "inicio",
+      "about": "nosotros",
+      "services": "servicios",
+      "solutions": "soluciones",
+      "walk": "recorrido 3d",
+      "processes": "procesos",
+      "contact": "contáctanos"
+    },
+    "AboutPage": {
+      "title": "Sobre Nosotros"
+    },
+    "Hero": {
+      "title": "Diseño & Soluciones a Gas",
+      "description": "Eficiencia en toda conección: Descubre nuestras soluciones de plomeria a gas.",
+      "button": "Descubre"
+    }
+  } 
