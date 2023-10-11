@@ -1,7 +1,7 @@
 'use client';
 
 import {useTranslations} from 'next-intl';
-import Hero from './Hero';
+import Hero from "./Hero";
 
 export default function IndexPage() {
   return (
