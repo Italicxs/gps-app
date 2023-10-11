@@ -7,8 +7,13 @@ export default function Hero() {
     return(
         <>
         <div className="relative overflow-hidden min-h-screen">
-        <video src="/hero-bg.webm" autoPlay loop playsInline className="absolute inset-0 object-cover w-full h-full"></video>
-        
+        <video
+          src="/hero-bg.webm"
+          autoPlay
+          loop
+          muted
+          className="absolute inset-0 object-cover w-full h-auto"
+        />        
         </div>
         </>
     )
