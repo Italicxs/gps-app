@@ -76,6 +76,7 @@ export default function Navigation() {
 
               {/* Hamburger */}
               <div className="-mr-2 flex items-center sm:hidden">
+                <LocaleSwitcher></LocaleSwitcher>
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-m text-black-400 hover:text-black-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                   {open ? (
                     <svg
@@ -140,9 +141,7 @@ export default function Navigation() {
               )}
             <NavigationResponsiveLink href="/about" prefetch>{t('about')}</NavigationResponsiveLink>
             <NavigationResponsiveLink href="/Contact" prefetch>{t('contact')}</NavigationResponsiveLink>
-            <div className="border-transparent text-black hover:border-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
-            <LocaleSwitcher></LocaleSwitcher>
-              </div>
+           
             </div>
           </Disclosure.Panel>
         </>
