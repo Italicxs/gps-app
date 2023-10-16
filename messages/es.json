@@ -1,7 +1,4 @@
 {
-    "IndexPage": {
-      "title": "next-intl ejemplo"
-    },
     "LocaleSwitcher": {
       "label": "Cambiar lenguaje",
       "locale": "{locale, select, es {ES} en {EN} other {Unknown}}"
@@ -20,7 +17,232 @@
     },
     "Hero": {
       "title": "Diseño & Soluciones a Gas",
-      "description": "Eficiencia en toda conección: Descubre nuestras soluciones de plomeria a gas.",
+      "description": "Eficiencia en toda conexión: Descubre nuestras soluciones de plomeria a gas.",
       "button": "Descubre"
-    }
-  } 
+    },
+    "AboutUs": {
+      "title": "QUIENES SOMOS",
+      "description": "Somos una empresa joven y dinamica, con mas de una década de experiencia combinando las soluciones operativas a gas para locales y edificios"
+    },
+    "Services": {
+      "title": "servicios",
+      "description": "Independientemente del tamaño de la empresa, local y el nivel de tecnología considerado, estamos comprometidos con entender su situación actual y encontrar soluciones efectivas que superen sus expectativas.",
+      "card 1": "Instalación de sistemas de gas",
+      "card 2": "Detección y reparación de fugas de gas",
+      "card 3": "Mantenimiento preventivo de sistemas de gas",
+      "card 4": "Instalación de estufas y chimeneas a gas",
+      "description 1": "Instalación segura y certificada de tuberías y conexiones para sistemas de gas en cocinas, calentadores de agua, calderas y más.",
+      "description 2": "Localización precisa y solución rápida de fugas de gas para garantizar la seguridad de la propiedad y sus ocupantes.",
+      "description 3": "Revisiones periódicas para asegurar el buen funcionamiento de los sistemas de gas y evitar problemas futuros.",
+      "description 4": "Montaje seguro de estufas y chimeneas que funcionan con gas para brindar comodidad y calor en el hogar."
+  
+    },
+    "HowWeWork": {
+      "title": "COMO TRABAJAMOS",
+      "description": "Regardless of company size, location and level of technology under consideration, we are committed to understanding your current situation and finding effective solutions that exceed your expectations.",
+      "slider 1": "IDENTIFICAR",
+      "slider 2": "ANALIZAR",
+      "slider 3": "DISEÑOS",
+      "slider 4": "VALIDAR",
+      "slider 5": "IMPLEMENTAR",
+      "slider 6": "EJECUTAR",
+      "description 1": "Nuestros expertos en plomería a gas descubren problemas ocultos y brindan soluciones precisas. Cada detalle cuenta, ¡confía en nosotros!",
+      "description 2": "Con habilidad para analizar complejas redes de gas, resolvemos problemas y entendemos su origen. Garantizamos soluciones sólidas y duraderas.",
+      "description 3": "En la plomería a gas, nuestro equipo crea sistemas innovadores y funcionales. La seguridad y el rendimiento son protagonistas en nuestro diseño.",
+      "description 4": "Validamos cada paso del camino con pruebas exhaustivas y estándares inquebrantables. Nuestro sello de calidad te brinda confianza.",
+      "description 5": "Transformamos ideas en realidad, implementando soluciones que cambian la plomería a gas. La innovación cobra vida en nuestros proyectos.",
+      "description 6": "Somos inigualables en la ejecución de cada tarea con precisión de cirujanos. Cada acción es un paso hacia tu bienestar y tranquilidad."
+    },
+    "WhoAre": {
+      "title": "donde estamos",
+      "subtitle": "las provincias que atendemos",
+      "description": "En nuestra empresa, valoramos enormemente la cercanía con nuestros clientes. Actualmente, llevamos nuestras soluciones en plomería a gas a las provincias de Panamá, Panamá Oeste y Darién. Nuestro compromiso es estar presentes en estas áreas, brindando un servicio cercano y confiable para satisfacer todas las necesidades de nuestros clientes en cada lugar que nos necesiten."
+    },
+    "HowWeHelp": {
+      "title": "como podemos ayudar",
+      "subtitle": "nuestras areas de experticia",
+      "slider 1": "INSTALACIÓN",
+      "slider 2": "MANTENIMIENTO",
+      "slider 3": "REGULACIÓNES",
+      "desc 1": "-Instalación de Tuberias a Gas",
+      "desc 2": "-Instalación de Electrodomesticos",
+      "desc 3": "-Reemplazo de valvulas y reguladores",
+      "desc 4": "-Raestro de Fugas",
+      "desc 5": "-Modernización de Sistemas a Gas",
+      "desc 6": "-Medidores de Control y de Consumo",
+      "desc 7": "-Certificación",
+      "desc 8": "-Inspección y pruebas",
+      "desc 9": "-Cumplimiento de normativas",
+      "button": "Leer más"
+    },
+    "WhyUs": {
+      "header": "PORQUE NOSOTROS",
+      "title": "porque tu exito es nuestra prioridad",
+      "subtitle 1": "Independencia",
+      "subtitle 2": "Orientado a Resultados",
+      "description 1": "Cuando eliges nuestra compañía, eliges la independencia como un pilar fundamental de nuestra relación. No estamos atados a enfoques convencionales; en su lugar, valoramos la libertad de explorar soluciones innovadoras y personalizadas que se adapten perfectamente a tus necesidades. Nuestra independencia nos permite tomar decisiones audaces y creativas en cada paso del camino, sin restricciones impuestas por la norma. Esta libertad nos impulsa a encontrar caminos únicos para superar desafíos y brindarte resultados excepcionales.",
+      "description 2": "En nuestra compañía, no solo hablamos de resultados, los vivimos. Nuestro enfoque está firmemente arraigado en la búsqueda de soluciones tangibles y logros concretos. Desde el momento en que nos asociamos contigo, ponemos en marcha un enfoque riguroso y orientado a resultados que guía cada decisión que tomamos. Trabajamos incansablemente para cumplir tus objetivos y superar tus expectativas. Cada acción que emprendemos tiene un propósito claro: brindarte no solo soluciones, sino soluciones que impacten positivamente en tu negocio y tu vida. Nuestra promesa es simple: resultados que hablan por sí mismos."
+    },
+    "Footer": {
+      "title 1": "Contactanos",
+      "title 2": "Características",
+      "title 3": "Compañía",
+      "title 4": "Términos y políticas",
+      "call" : "Llámanos : +507 6546-4661",
+      "description" : "No dude en ponerse en contacto con nosotros, le daremos el mejor trato.",
+      "rights" : "Soluciones GasPlum. Todos los derechos reservados.",
+      "link 1": "Inicio",
+      "link 2": "Servicios",
+      "link 3": "Soluciones",
+      "link 5": "Procesos",
+      "link 6": "Nosotros",
+      "link 7": "Contactanos",
+      "link 8": "Terminos y Condiciones",
+      "link 9": "Política de privacidad",
+      "link 10": "Seguridad"
+    },
+    "Hero Services": {
+      "title": "SOMOS EXPERTOS EN"
+    },
+    "Cards 1": {
+      "header 1": "PROCESOS",
+      "header 2": "ANALÍTICAS",
+      "header 3": "DISEÑO",
+      "title 1":"Instalación de sistemas a gas",
+      "title 2":"Análisis y Modelado",
+      "title 3":"Planos de tuberías 2D y 3D"
+    },
+    "Cards 2": {
+      "header 1": "IDENTIFICAR",
+      "header 2": "mantenimiento",
+      "header 3": "Instalaciones",
+      "title 1": "Detección y reparación de fugas de gas",
+      "title 2": "Mantenimiento preventivo",
+      "title 3": "Instalación de estufas y chimeneas"
+    },
+    "GasInstallation": {
+      "header": "PROCESOS",
+      "title": "INSTALACIÓN DE SISTEMAS A GAS",
+      "description": "Nuestra instalación de tuberías de gas integra las mejores prácticas más rentables del sector. Cada conexión se diseña meticulosamente para garantizar la seguridad, el rendimiento y la eficiencia energética. Superamos las expectativas proporcionando soluciones de tuberías de gas duraderas y de alto rendimiento que destacan por su calidad y satisfacción."
+    },
+    "Analytics": {
+      "header": "ANALÍTICAS",
+      "title": "ANÁLISIS Y MODELIZACIÓN",
+      "description": "Nuestras capacidades de análisis y modelado son la clave para una ejecución exitosa. Utilizando la tecnología, evaluamos cada detalle de sus sistemas con precisión."
+    },
+    "Plans": {
+      "header": "DISEÑO",
+      "title": "PLANOS DE TUBERÍAS 2D Y 3D",
+      "description": "Los diseños precisos optimizan la instalación y la toma de decisiones, ahorrando tiempo y recursos en cada paso del proceso."
+    },
+    "Detection": {
+      "header": "identificar",
+      "title": "DETECCIÓN Y REPARACIÓN DE FUGAS DE GAS",
+      "description": "Nuestro equipo de expertos también se dedica a la detección precisa y reparación rápida de fugas de gas, garantizando la protección de su hogar y sus seres queridos."
+    },
+    "Mainteinance": {
+      "header": "MANTENIMIENTO ",
+      "title": "MANTENIMIENTO PREVENTIVO",
+      "description": "Ofrecemos un mantenimiento preventivo integral que garantiza el rendimiento óptimo de sus sistemas a lo largo del tiempo."
+    },
+    "Installations": {
+      "header": "INSTALACIONES ",
+      "title": "INSTALACIÓN DE ESTUFAS Y ELECTRODOMESTICOS",
+      "contact": "Contáctanos",
+      "description": "Quieres añadir calidez a tu espacio? Especializados en fontanería a gas e instalación de electrodomésticos a gas, ofrecemos desde estufas y chimeneas a gas para crear ambientes acogedores, hasta secadoras a gas para una lavandería más eficiente. Confíe en nuestra experiencia para llevar la comodidad a su hogar o negocio."
+    },
+    "Designings": {
+      "title": "RECORRIDO 3D",
+      "description": "Imagina el futuro de tus proyectos con GPS: ¡visualiza, experimenta y decide antes de construir! En GPS, no solo presentamos soluciones, las hacemos tangibles para ti. Más que planos bidimensionales y bosquejos, te invitamos a adentrarte en tu proyecto, recorriendo cada rincón virtualmente. A través de nuestra herramienta de visualización, después de la presentación del concepto, podrás explorar tu solución con cualquier navegador estándar.",
+      "subtitle": "Beneficios Imprescindibles:",
+      "li 1": "Revisión revolucionada: Simplificamos la revisión de soluciones al permitirte explorarlas en detalle antes de implementar.",
+      "li 2": "Mayor compromiso: Facilitamos presentaciones y toma de decisiones al presentar nuestra empresa a través de tecnología vanguardista.",
+      "li 3": "Visión mejorada: Ampliamos tu capacidad de examinar detalles minuciosos y de revisar después de la presentación.",
+      "li 4": "Validación facilitada: Te brindamos la oportunidad de validar la coherencia entre el diseño y la ejecución.",
+      "conclusion": "Descubre nuestro compromiso con los detalles a través de cada modelo. No solo te mostramos sistemas de tuberías y electrodomésticos, sino que también te proporcionamos una ubicación precisa para cada elemento. Experimenta el futuro hoy mismo con GPS.",
+      "sketched": "Renderizado",
+      "implemented": "Implementando"
+    },
+    "Processes": {
+      "title": "PROCESOS DE NEGOCIO",
+      "description 1": "En GPS, la excelencia en cada paso del proceso es nuestra promesa. Aunque somos una empresa nueva, nuestro equipo cuenta con más de 15 años de experiencia en el sector. Comenzamos escuchando atentamente sus necesidades y visiones, dando vida a cada idea a través de tecnología avanzada y experiencia experta.",
+      "description 2": "Nuestro equipo trabaja con pasión para crear soluciones personalizadas que no sólo cumplan sus expectativas, sino que las superen con creces. Desde una planificación meticulosa hasta una ejecución impecable, cuidamos cada detalle con el objetivo de ofrecerle unos resultados excepcionales. Su satisfacción es nuestra prioridad, y cada proyecto es una oportunidad para demostrar nuestro compromiso con la calidad y la innovación.",
+      "description 3": "Con GPS, estará en manos de profesionales dedicados que transformarán sus conceptos en realidades tangibles. Juntos, haremos de cada paso del proceso una experiencia inspiradora y gratificante. Confíe en nosotros para hacer realidad su visión y llevar su proyecto al siguiente nivel. No importa si se trata de un proyecto pequeño o ambicioso; estamos aquí para superar sus expectativas y dejar una huella duradera en cada paso que demos con usted.",
+      "description 4": "En GPS, la excelencia en cada proyecto es nuestra norma. Desde la planificación hasta la ejecución, convertimos sus ideas en realidad. ¿Listo para empezar a construir y transformar? ",
+      "conclusion": "¡Contáctanos ahora y materializa tus sueños con nosotros!",
+      "contact": "Contáctanos"
+    },
+    "Hero Company": {
+      "title": "La experiencia de un experto con la proximidad de una empresa local."
+    },
+    "Company": {
+      "header": "COMPAÑIA ESPECIALIZADA A PLOMERIA A GAS",
+      "title": "PERMITANOS HACER SU OPERACIÓN",
+      "description": "Actualmente, aunque somos una empresa nueva en el mercado, estamos orgullosos de ofrecer servicios en toda la Ciudad de Panamá, Panamá Oeste y Colón. Aunque no contamos con oficinas físicas en la Ciudad de Panamá, hemos diseñado nuestro enfoque para atender directamente sus necesidades donde quiera que se encuentre. Su conveniencia es nuestra prioridad, y estamos comprometidos a brindarle soluciones confiables y asequibles independientemente de su ubicación.",
+      "title 1": "Visión",
+      "title 2": "Misión",
+      "description 1": "Buscamos transformar la experiencia de nuestros clientes. Más allá de los proyectos, ofrecemos soluciones diseñadas para mejorar vidas. Con más de 15 años en la fontanería de gas, nuestro conocimiento y experiencia nos permiten aportar un valor único y personalizado.",
+      "description 2": "Nuestra misión es aportar innovación y compromiso personalizado a cada proyecto. Aportamos tecnología avanzada y un enfoque más allá de lo convencional para garantizar la eficiencia, la seguridad y la calidad en cada paso. Cada proyecto es una oportunidad para demostrar pasión y dedicación. Proporcionamos más que servicios: ofrecemos tranquilidad, satisfacción y confianza, haciendo que su vida sea cómoda y segura."
+    },
+    "Hero Contact": {
+      "title": "Pongamonos en contacto",
+      "title 2": "y déjanos ser tu aliado en la excelencia."
+    },
+    "Contact": {
+      "header": "¿INTERESADO EN NUESTROS SERVICIOS?",
+      "title": "PONTE EN CONTÁCTO CON NOSOTROS"
+    },
+    "Privacy": {
+      "title": "Política de Privacidad",
+      "description": "En GasPlum Solutions, valoramos su privacidad y nos comprometemos a proteger sus datos personales. Esta política de privacidad le informa sobre cómo recopilamos, utilizamos, protegemos y compartimos su información cuando visita nuestro sitio web.",
+      "title 1": "Recopilación de Información",
+      "title 2": "Uso de la Información",
+      "title 3": "Protección de la Información",
+      "title 4": "Compartir Información",
+      "title 5": "Enlaces a Sitios Externos",
+      "title 6": "Derechos del Usuario",
+      "title 7": "Cambios en la Política de Privacidad",
+      "desc 1": "Cuando visita nuestro sitio web, podemos recopilar información personal que usted proporciona voluntariamente, como su nombre, dirección de correo electrónico y número de teléfono. También podemos recopilar automáticamente información a través de cookies y tecnologías similares para mejorar su experiencia en línea.",
+      "desc 2": "Utilizamos la información que recopilamos para brindarle nuestros servicios y mejorar su experiencia. Esto incluye el procesamiento de pedidos, responder a sus consultas y personalizar el contenido.",
+      "desc 3": "Tomamos medidas para proteger su información personal y garantizar su seguridad. Utilizamos tecnologías de seguridad y seguimos las mejores prácticas para prevenir el acceso no autorizado.",
+      "desc 4": "No compartiremos su información personal con terceros, excepto cuando sea necesario para proporcionarle nuestros servicios o cuando estemos legalmente obligados a hacerlo.",
+      "desc 5": "Nuestro sitio web puede contener enlaces a sitios web de terceros. No somos responsables de las prácticas de privacidad de estos sitios, y le recomendamos que revise sus políticas antes de proporcionar cualquier información personal a ellos.",
+      "desc 6": "Usted tiene derecho a acceder, corregir y eliminar sus datos personales. Si desea ejercer estos derechos o tiene alguna pregunta sobre nuestra política de privacidad, por favor contáctenos.",
+      "desc 7": "Nos reservamos el derecho de actualizar nuestra política de privacidad en cualquier momento. Cualquier cambio se publicará en esta página.",
+      "conclusion": "Al utilizar nuestro sitio web, usted acepta los términos de esta política de privacidad. Agradecemos la confianza que deposita en GasPlum Solutions y estamos comprometidos a proteger su privacidad en todo momento."
+    },
+    "Terms": {
+      "title": "Términos de Servicio",
+      "description": "Bienvenido a Gas Plum Solutions, líderes en soluciones de fontanería de gas. Al acceder y utilizar nuestro sitio web, usted acepta quedar vinculado por los siguientes términos y condiciones de uso. Le pedimos que se tome un momento para revisar esta sección detenidamente antes de continuar. Estos términos rigen su interacción con nuestro sitio web y todos los servicios que ofrecemos. Al utilizar nuestra plataforma, acepta cumplir con los términos establecidos aquí. Si no está de acuerdo con alguno de los términos, le recomendamos que no utilice nuestro sitio web.",
+      "title 1": "Uso del Sitio Web",
+      "title 2": "Contenido",
+      "title 3": "Política de Privacidad",
+      "title 4": "Enlaces de Terceros",
+      "title 5": "Cambios en los Términos",
+      "title 6": "Limitación de Responsabilidad",
+      "desc 1": "El uso de este sitio web está sujeto a las leyes y regulaciones aplicables. No puede utilizar este sitio web de ninguna manera que pueda dañarlo, deshabilitarlo, sobrecargarlo o de cualquier manera perjudicar nuestra plataforma o interferir con el uso y disfrute de otros usuarios.",
+      "desc 2": "El contenido de este sitio web es propiedad exclusiva de Gas Plum Solutions. Está protegido por las leyes de derechos de autor, y no puede reproducir, distribuir o utilizarlo de ninguna manera sin nuestro permiso expreso por escrito.",
+      "desc 3": "Su privacidad es importante para nosotros. Le invitamos a revisar nuestra Política de Privacidad para comprender cómo recopilamos, usamos y protegemos su información personal.",
+      "desc 4": "Nuestro sitio web puede contener enlaces a sitios web de terceros. No tenemos control sobre el contenido o las prácticas de privacidad de estos sitios y no asumimos ninguna responsabilidad por ellos.",
+      "desc 5": "Nos reservamos el derecho de cambiar estos términos en cualquier momento. Cualquier modificación será efectiva inmediatamente después de su publicación en el sitio web. Es su responsabilidad revisar regularmente esta sección para estar al tanto de los cambios.",
+      "desc 6": "Gas Plum Solutions no será responsable de ningún daño directo, indirecto, incidental, especial o consecuente que resulte del uso o la imposibilidad de usar nuestro sitio web.",
+      "conclusion": "Al acceder y utilizar este sitio web, acepta quedar vinculado por estos términos y condiciones. Si tiene alguna pregunta o inquietud, no dude en ponerse en contacto con nosotros. Le agradecemos por confiar en Gas Plum Solutions como su proveedor de soluciones de fontanería de gas."
+  },
+  "Security": {
+    "title": "Seguridad y Protección de Datos",
+    "description": "En GasPlum Solutions, tomamos la seguridad de sus datos personales muy en serio. Entendemos la importancia de proteger su información y queremos que se sienta seguro al interactuar con nuestro sitio web.",
+    "title 1": "Certificado SSL",
+    "title 2": "Protección Tecnológica",
+    "title 3": "Procesamiento Seguro",
+    "title 4": "Políticas de Acceso Interno",
+    "title 5": "Compromiso con la Privacidad",
+    "title 6": "Sus Derechos",
+    "desc 1": "Utilizamos un certificado SSL (Capa de Conexión Segura) para cifrar sus datos y garantizar que la información que comparte con nosotros esté protegida durante la transmisión. Esto significa que cualquier información que ingrese en nuestro sitio web está protegida y no es accesible por terceros no autorizados.",
+    "desc 2": "Nuestro sitio web está equipado con tecnología de seguridad avanzada para proteger sus datos contra el acceso no autorizado. Mantenemos medidas de seguridad actualizadas para garantizar la integridad de su información.",
+    "desc 3": "Cuando realiza una transacción o proporciona información personal en nuestro sitio web, utilizamos protocolos de seguridad para garantizar que sus datos estén protegidos. Trabajamos con plataformas de procesamiento confiables y seguras para proteger sus transacciones.",
+    "desc 4": "Solo nuestro personal autorizado tiene acceso a su información personal. Hemos implementado políticas internas para garantizar que sus datos se utilicen únicamente para los fines que usted ha proporcionado.",
+    "desc 5": "Nuestro compromiso con la seguridad y la protección de datos es una parte fundamental de nuestros valores como empresa. Nos esforzamos por mantener la confianza que deposita en nosotros al brindarle un entorno en línea seguro y protegido.",
+    "desc 6": "Usted tiene el derecho de saber cómo protegemos sus datos personales. Si tiene preguntas sobre nuestras prácticas de seguridad o cómo manejamos sus datos, no dude en ponerse en contacto con nosotros.",
+    "conclusion": "En GasPlum Solutions, la seguridad de su información es una prioridad. Queremos que se sienta cómodo interactuando con nosotros en línea, sabiendo que sus datos están protegidos. Apreciamos su confianza y estamos comprometidos a mantener un entorno seguro en cada interacción."
+  }
+}

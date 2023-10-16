@@ -1,14 +1,11 @@
 {
-  "IndexPage": {
-    "title": "next-intl example"
-  },
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, es {ES} en {EN} other {Unknown}}"
   },
   "Navigation": {
     "home": "home",
-    "about": "about",
+    "about": "about us",
     "services": "services",
     "solutions": "solutions",
     "walk": "3d walkthrought",
@@ -22,6 +19,231 @@
     "title": "gas solutions & designs",
     "description": "Efficiency at every connection: Discover our gas plumbing solutions.",
     "button": "Discover"
-  }
+  },
+  "AboutUs": {
+    "title": "who are we",
+    "description": "We are a young and dynamic company, with more than a decade of experience in combining operational gas solutions for premises and buildings."
+  },
+  "Services": {
+    "title": "services",
+    "description": "Regardless of company size, location and level of technology under consideration, we are committed to understanding your current situation and finding effective solutions that exceed your expectations.",
+    "card 1": "Gas System Installation",
+    "card 2": "Gas Leak Detection",
+    "card 3": "Preventive Maintenance",
+    "card 4": "Gas Stove and Fireplace",
+    "description 1": "Safe and certified installation of piping and connections for gas systems in kitchens, water heaters, boilers and more.",
+    "description 2": "Ensuring property safety through accurate gas leak detection and prompt resolution for the protection of its occupants.",
+    "description 3": "Periodic check-ups to ensure the proper functioning of gas systems and avoid future problems.",
+    "description 4": "Safe installation of gas-fired stoves and fireplaces to provide comfort and warmth in the home."
 
+  },
+  "HowWeWork": {
+    "title": "How we work",
+    "description": "Regardless of company size, location and level of technology under consideration, we are committed to understanding your current situation and finding effective solutions that exceed your expectations.",
+    "slider 1": "IDENTIFY",
+    "slider 2": "ANALYZE",
+    "slider 3": "DESIGN",
+    "slider 4": "VALIDATE",
+    "slider 5": "IMPLEMENT",
+    "slider 6": "EXECUTE",
+    "description 1": "Our gas plumbing experts uncover hidden problems and provide accurate solutions. Every detail counts, trust us!",
+    "description 2": "Skilled at analyzing complex gas networks, we solve problems and understand their source. We guarantee solid and lasting solutions.",
+    "description 3": "In gas plumbing, our team creates innovative and functional systems. Safety and performance are central to our design.",
+    "description 4": "We validate every step of the way with extensive testing and uncompromising standards. Our seal of quality gives you confidence.",
+    "description 5": "We transform ideas into reality, implementing solutions that change gas-fired plumbing. Innovation comes to life in our projects.",
+    "description 6": "We are unmatched in executing every task with surgeon-like precision. Every action is a step toward your well-being and peace of mind."
+  },
+  "WhoAre": {
+    "title": "where we are",
+    "subtitle": "where we are",
+    "description": "In our company, we greatly value the proximity to our customers. Currently, we bring our gas plumbing solutions to the provinces of Panama, Panama Oeste and Darien. Our commitment is to be present in these areas, providing a close and reliable service to meet all the needs of our customers in every place they need us."
+  },
+  "HowWeHelp": {
+    "title": "how we can help",
+    "subtitle": "OUR AREAS OF EXPERTISE",
+    "slider 1": "INSTALLATION",
+    "slider 2": "MAINTEINANCE",
+    "slider 3": "REGULATIONS",
+    "desc 1": "-Gas pipeline",
+    "desc 2": "-Installation of appliances",
+    "desc 3": "-Valve and regulator replacement",
+    "desc 4": "-Leak Detection",
+    "desc 5": "-Modernization of gas systems",
+    "desc 6": "-Control and consumption meters",
+    "desc 7": "-Certifications",
+    "desc 8": "-Inspection and testing.",
+    "desc 9": "-Compliance with regulations.",
+    "button": "Read more"
+  },
+  "WhyUs": {
+    "header": "WHY US",
+    "title": "BECAUSE YOUR SUCCESS IS OUR PRIORITY",
+    "subtitle 1": "Independence",
+    "subtitle 2": "Results-Oriented",
+    "description 1": "When you choose our company, you choose independence as a key principle. We are not limited by tradition; we value the freedom to explore customized solutions that fit your needs. This independence motivates us to find unique approaches to deliver exceptional results.",
+    "description 2": "At our company, results are not just words, they are our compass. From the start, we take a rigorous, results-oriented approach. We work tirelessly to exceed your expectations and meet your objectives. Every action has a clear purpose: to offer you impactful solutions that speak for themselves."
+  },
+  "Footer": {
+    "title 1": "Contact Us",
+    "title 2": "Features",
+    "title 3": "Company",
+    "title 4": "Team And Policies",
+    "call" : "Call : +507 6546-4661",
+    "description" : "Feel free to contact us, we will provide you with the best treatment.",
+    "rights" : "GasPlum Solutions. All rights reserved.",
+    "link 1": "Home",
+    "link 2": "Services",
+    "link 3": "Solutions",
+    "link 5": "Processes",
+    "link 6": "About Us",
+    "link 7": "Contact",
+    "link 8": "Terms & Conditions",
+    "link 9": "Privacy Policy",
+    "link 10": "Security"
+  },
+  
+  "Hero Services": {
+    "title": "WE ARE EXPERTS IN"
+  },
+  "Cards 1": {
+    "header 1": "PROCESSES",
+    "header 2": "ANALYTICS",
+    "header 3": "DESIGN",
+    "title 1":"Gas System Installation",
+    "title 2":"Analysis & Modeling",
+    "title 3":"2D & 3D Piping Plans"
+  },
+  "Cards 2": {
+    "header 1": "IDENTIFY",
+    "header 2": "mainteinance",
+    "header 3": "Instalations",
+    "title 1": "Gas Leak Detection & Repair",
+    "title 2": "Preventive Maintenance",
+    "title 3": "Stove & Fireplace Installation"
+  },
+  "GasInstallation": {
+    "header": "PROCESSES",
+    "title": "GAS SYSTEM INSTALLATION",
+    "description": "Our gas piping installation integrates the most cost-effective of industry best practices. Each connection is meticulously designed to ensure safety, performance and energy efficiency. We exceed expectations by providing durable, high-performance gas piping solutions that excel in quality and satisfaction."
+  },
+  "Analytics": {
+    "header": "ANALYTICS",
+    "title": "ANALYSIS & MODELING",
+    "description": "Our analysis and modeling capabilities are the key to successful execution. Using technology, we evaluate every detail of your systems with precision."
+  },
+  "Plans": {
+    "header": "DESING",
+    "title": "2D & 3D PIPING PLANS",
+    "description": "Precise designs optimize installation and decision making, saving time and resources at every step of the process."
+  },
+  "Detection": {
+    "header": "IDENTIFY",
+    "title": "GAS LEAK DETECTION & REPAIR",
+    "description": "Our team of experts is also dedicated to the accurate detection and prompt repair of gas leaks, ensuring the protection of your home and loved ones."
+  },
+  "Mainteinance": {
+    "header": "MAINTEINANCE",
+    "title": "PREVENTIVE MAINTENANCE",
+    "description": "We offer comprehensive preventive maintenance that ensures the optimal performance of your systems over time."
+  },
+  "Installations": {
+    "header": "INSTALLATIONS",
+    "title": "STOVE & HOME APPLIANCES INSTALLATION",
+    "contact": "Contact us",
+    "description": "Want to add warmth to your space? Specializing in gas plumbing and gas appliance installation, we offer everything from gas stoves and fireplaces to create cozy environments, to gas dryers for a more efficient laundry room. Trust our expertise to bring comfort to your home or business."
+  },
+  "Designings": {
+    "title": "3D WALKTHROUGHT",
+    "description": "Imagine the future of your projects with GPS: visualize, experiment, and decide before you build! At GPS, we dont just present solutions; we make them tangible for you. More than two-dimensional plans and sketches, we invite you to enter into your project, walking through every corner virtually. Through our visualization tool, after the concept presentation, you will be able to explore your solution with any standard browser.",
+    "subtitle": "Essential Benefits:",
+    "li 1": " Revolutionized Review: We simplify the review of solutions by allowing you to explore them in detail before implementing.",
+    "li 2": "Elevated Engagement: We facilitate presentations and decision making by presenting our company through cutting-edge technology.",
+    "li 3": " Enhanced Insight: We expand your ability to examine minute details and review after the presentation.",
+    "li 4": "Validation Made Easy: We give you the opportunity to validate consistency between design and execution.",
+    "conclusion": "Discover our commitment to detail through every model. Not only do we show you plumbing systems and appliances, but we also provide you with a precise location for each element. Experience the future today with GPS.",
+    "sketched": "SKETCHED",
+    "implemented": "IMPLEMENTED"
+  },
+  "Processes": {
+    "title": "BUSSINESS PROCESSES",
+    "description 1": "At GPS, excellence in every step of the process is our promise. Although we are a new company, our team has over 15 years of experience in the field. We start by listening carefully to your needs and visions, bringing each idea to life through advanced technology and expert experience.",
+    "description 2": "Our team works passionately to create customized solutions that not only meet your expectations, but far exceed them. From meticulous planning to flawless execution, every detail is taken care of with the goal of providing you with exceptional results. Your satisfaction is our priority, and every project is an opportunity to demonstrate our commitment to quality and innovation.",
+    "description 3": "With GPS, you are in the hands of dedicated professionals who will transform your concepts into tangible realities. Together, we will make every step of the process an inspiring and rewarding experience. Trust us to make your visions a reality and take your project to the next level. It doesnt matter if its a small or ambitious project; we are here to exceed your expectations and leave a lasting mark on every step we take with you.",
+    "description 4": "At GPS, excellence in every project is our standard. From planning to execution, we turn your ideas into reality. Ready to start building and transforming? ",
+    "conclusion": "Contact us now and materialize your dreams with us!",
+    "contact": "Contact us"
+  },
+  "Hero Company": {
+    "title": "The Expertise of an Expert with the proximity of a Local Company."
+  },
+  "Company": {
+    "header": "COMPANY SPECIALIZED IN GAS PLUMBING",
+    "title": "LET US DO YOUR OPERATION",
+    "description": "Currently, although we are a new company in the market, we are proud to offer services throughout Panama City, West Panama and Colon. Although we do not have physical offices in Panama City, we have designed our approach to directly serve your needs wherever you are. Your convenience is our priority, and we are committed to providing you with reliable and affordable solutions regardless of your location",
+    "title 1": "Vision",
+    "title 2": "Mission",
+    "description 1": "We seek to transform our clients experience. Beyond projects, we provide solutions designed to improve lives. With over 15 years in gas plumbing, our knowledge and experience allow us to provide unique and personalized value.",
+    "description 2": "Our mission is to bring innovation and personalized commitment to every project. We bring advanced technology and a beyond-conventional approach to ensure efficiency, safety and quality at every step. Every project is an opportunity to demonstrate passion and dedication. We provide more than services: we deliver peace of mind, satisfaction and confidence, making your life comfortable and safe."
+  },
+  "Hero Contact": {
+    "title": "Get in touch",
+    "title 2": "And let us be your partner in excellence."
+  },
+  "Contact": {
+    "header": "INTERESTED ON OUR SERVICES?",
+    "title": "WAY TO CONTACT US"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "description": "At GasPlum Solutions, we value your privacy and are committed to protecting your personal data. This privacy policy tells you how we collect, use, protect, and share your information when you visit our website.",
+    "title 1": "Information Gathering",
+    "title 2": "Use of Information",
+    "title 3": "Information Protection",
+    "title 4": "Share Information",
+    "title 5": "Links to External Sites",
+    "title 6": "User Rights",
+    "title 7": "Privacy Policy Changes",
+    "desc 1": "When you visit our website, we may collect personal information that you voluntarily provide, such as your name, email address, and phone number. We may also automatically collect information through cookies and similar technologies to enhance your online experience.",
+    "desc 2": "We use the information we collect to provide you with our services and improve your experience. This includes processing orders, responding to your inquiries, and personalizing content.",
+    "desc 3": "We take steps to protect your personal information and ensure its security. We use security technologies and follow best practices to prevent unauthorized access.",
+    "desc 4": "We will not share your personal information with third parties, except as necessary to provide you with our services or when we are legally required to do so.",
+    "desc 5": "Our website may contain links to third-party websites. We are not responsible for the privacy practices of these sites, and we encourage you to review their policies before providing any personal information to them.",
+    "desc 6": "You have the right to access, correct, and delete your personal data. If you wish to exercise these rights or have any questions about our privacy policy, please contact us.",
+    "desc 7": "We reserve the right to update our privacy policy at any time. Any changes will be posted on this page.",
+    "conclusion": "By using our website, you agree to the terms of this privacy policy. We appreciate the trust you place in GasPlum Solutions and are committed to protecting your privacy at all times."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "description": "Welcome to Gas Plum Solutions, leaders in gas plumbing solutions. By accessing and using our website, you are agreeing to be bound by the following terms and conditions of use. Please take a moment to review this section carefully before continuing. These terms govern your interaction with our website and all the services we offer. By using our platform, you agree to comply with the terms established herein. If you do not agree with any of the terms, we recommend that you do not use our website.",
+    "title 1": "Use of the Website",
+    "title 2": "Content",
+    "title 3": "Privacy Policy",
+    "title 4": "Third-Party Links",
+    "title 5": "Changes to Terms",
+    "title 6": "Limitation of Liability",
+    "desc 1": "The use of this website is subject to applicable laws and regulations. You may not use this website in any way that could damage, disable, overburden, or otherwise impair our platform or interfere with the use and enjoyment of other users.",
+    "desc 2": "The content of this website is the exclusive property of Gas Plum Solutions. It is protected by copyright laws, and you may not reproduce, distribute, or use it in any way without our express written permission.",
+    "desc 3": "Your privacy is important to us. We invite you to review our Privacy Policy to understand how we collect, use, and protect your personal information.",
+    "desc 4": "Our website may contain links to third-party websites. We have no control over the content or privacy practices of these sites and assume no responsibility for them.",
+    "desc 5": "We reserve the right to change these terms at any time. Any modification will be effective immediately after its publication on the website. It is your responsibility to regularly review this section to be aware of any changes.",
+    "desc 6": "Gas Plum Solutions shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from the use or inability to use our website.",
+    "conclusion": "By accessing and using this website, you agree to be bound by these terms and conditions. If you have any questions or concerns, please do not hesitate to contact us. We thank you for trusting Gas Plum Solutions as your provider of gas plumbing solutions."
+  },
+  "Security": {
+    "title": "Security and Data Protection",
+    "description": "At GasPlum Solutions, we take the security of your personal data very seriously. We understand the importance of protecting your information, and we want you to feel safe when interacting with our website.",
+    "title 1": "SSL Certificate",
+    "title 2": "Technological Protection",
+    "title 3": "Secure Processing",
+    "title 4": "Internal Access Policies",
+    "title 5": "Commitment to Privacy",
+    "title 6": "Your Rights",
+    "desc 1": "We use an SSL (Secure Sockets Layer) certificate to encrypt your data and ensure that the information you share with us is protected during transmission. This means that any information you enter on our website is protected and is not accessible by unauthorized third parties.",
+    "desc 2": "Our website is equipped with advanced security technology to protect your data against unauthorized access. We maintain up-to-date security measures to guarantee the integrity of your information.",
+    "desc 3": "When you make a transaction or provide personal information on our website, we use security protocols to ensure that your data is protected. We work with reliable and secure processing platforms to protect your transactions.",
+    "desc 4": "Only our authorized personnel have access to your personal information. We have implemented internal policies to ensure that your data is only used for the purposes for which you have provided it.",
+    "desc 5": "Our commitment to security and data protection is a fundamental part of our values as a company. We strive to uphold the trust you place in us by providing you with a safe and secure environment online.",
+    "desc 6": "You have the right to know how we protect your personal data. If you have questions about our security practices or how we handle your data, please do not hesitate to contact us.",
+    "conclusion": "At GasPlum Solutions, the security of your information is a priority. We want you to feel comfortable interacting with us online, knowing that your data is protected. We appreciate your trust and are committed to maintaining a safe environment in every interaction."
+  }
 }

@@ -17,7 +17,7 @@ export default function NavigationResponsiveLink({href, ...rest}: Props) {
     <Link
       aria-current={isActive}
       className={clsx(
-        isActive ? 'bg-black-50 border-black text-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium' : 'border-transparent text-black hover:border-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium'
+        isActive ? 'bg-black-50 border-black text-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase' : 'border-transparent text-black hover:border-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase'
       )}
       href={href}
       {...rest}

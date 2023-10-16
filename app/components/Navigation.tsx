@@ -119,39 +119,27 @@ export default function Navigation() {
           <Disclosure.Panel className="sm:hidden">
             <div className="pt-2 pb-3 space-y-1">
 
-            <NavigationResponsiveLink href="/" prefetch>HOME</NavigationResponsiveLink>
-            <NavigationResponsiveLink href="/about" prefetch>ABOUT</NavigationResponsiveLink>
+            <NavigationResponsiveLink href="/" prefetch>{t('home')}</NavigationResponsiveLink>
+            <NavigationResponsiveLink href="/services" prefetch>{t('services')}</NavigationResponsiveLink>
               <span
                 className={`${
                   pathname === ""
-                    ? "bg-black-50 border-black text-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                    : "border-transparent text-black hover:border-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                    ? "bg-black-50 border-black text-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase"
+                    : "border-transparent text-black hover:border-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase"
                   }`}
                 onClick={toggleDropdown}
               >
-                SOLUTIONS
+                {t('solutions')}
               </span>
               {isSolutionsOpen && (
                 <div className="bg-white border border-gray-200 rounded-sm shadow-lg z-20">
+                  <NavigationResponsiveLink href="/Designings" prefetch className="block px-4 py-2 text-black hover:bg-gray-100 uppercase ">{t('walk')}</NavigationResponsiveLink>
+                  <NavigationResponsiveLink href="/Processes" prefetch className="block px-4 py-2 text-black hover:bg-gray-100 uppercase  ">{t('processes')}</NavigationResponsiveLink>
                   
-                  <Link
-                    href="/Designings"
-                    prefetch
-                    className="block px-4 py-2 text-black hover:bg-gray-100"
-                  >
-                    3D WALKTHROUGHT
-                  </Link>
-                  <Link
-                    href="/Processes"
-                    prefetch
-                    className="block px-4 py-2 text-black hover:bg-gray-100"
-                  >
-                    PROCESSES
-                  </Link>
                 </div>
               )}
-            <NavigationResponsiveLink href="/Company" prefetch>Company</NavigationResponsiveLink>
-            <NavigationResponsiveLink href="/Contact" prefetch>Contact us</NavigationResponsiveLink>
+            <NavigationResponsiveLink href="/about" prefetch>{t('about')}</NavigationResponsiveLink>
+            <NavigationResponsiveLink href="/Contact" prefetch>{t('contact')}</NavigationResponsiveLink>
             <div className="border-transparent text-black hover:border-black block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
             <LocaleSwitcher></LocaleSwitcher>
               </div>
