@@ -82,6 +82,7 @@ export default function HowWeHelp() {
           alt="Map"
           className="object-contain max-w-full h-auto rounded-sm"
           sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 800px"
+          loading="lazy"
         />
         {renderIcons()}
       </div>

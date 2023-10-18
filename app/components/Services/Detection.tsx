@@ -27,6 +27,7 @@ export default function Detection() {
                   fill
                   objectFit="cover"
                   className="rounded-sm"
+                  loading="lazy"
                 />
               </div>
             </div>

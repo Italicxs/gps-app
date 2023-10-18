@@ -45,6 +45,7 @@ export default function Cards() {
                   src={CardOne}
                   alt="Gas-Installation"
                   className="rounded-lg h-auto md:h-32 w-full object-cover mx-auto mb-4"
+                  loading="lazy"
                 ></Image>
                 <h3 className="text-md text-blue-500 font-light mb-2 uppercase">{t('header 1')}</h3>
                 <h2 className="text-xl font-semibold mb-2 capitalize">{t('title 1')}</h2>
@@ -63,11 +64,12 @@ export default function Cards() {
                   src={CardTwo}
                   alt="Analysis"
                   className="rounded-lg h-auto md:h-32 w-full object-cover mx-auto mb-4"
+                  loading="lazy"
                 ></Image>
                 <h3 className="text-md text-blue-500 font-light mb-2 uppercase">{t('header 2')}</h3>
                 <h2 className="text-xl font-semibold mb-2 capitalize">{t('title 2')}</h2>
                 
-                <Link href="#Analysis" className="btn btn-primary" onClick={(event) => handleClick(event, "Analysis")}>
+                <Link href="#Analysis" className="btn btn-primary" onClick={(event) => handleClick(event, "Analysis")} >
                   {icon}
                 </Link>
               </div>
@@ -82,6 +84,7 @@ export default function Cards() {
                   src={CardThree}
                   alt="Design"
                   className="rounded-lg h-auto md:h-32 w-full object-cover mx-auto mb-4"
+                  loading="lazy"
                 ></Image>
                 <h3 className="text-md text-blue-500 font-light mb-2 uppercase">{t('header 3')}</h3>
                 <h2 className="text-xl font-semibold mb-2 capitalize">{t('title 3')}</h2>

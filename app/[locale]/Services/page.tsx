@@ -33,7 +33,7 @@ export default function Services(){
       <>
       {
          isLoading ?  <Loader></Loader> : 
-         <div>
+         <main>
            <Hero></Hero>
            <Cards></Cards>
            <Cards2></Cards2>
@@ -55,7 +55,7 @@ export default function Services(){
            <div id="Install">
            <Installation></Installation>
            </div>
-         </div>
+         </main>
        }
       </>
     )

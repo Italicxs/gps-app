@@ -27,6 +27,7 @@ export default function WhoAre() {
                 src={mpContent}
                 alt="Map"
                 className="object-contain object-center"
+                loading="lazy"
               />
             </div>
           </div>

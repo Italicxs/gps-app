@@ -45,6 +45,7 @@ export default function Cards2() {
                   src={CardFour}
                   alt="Detection"
                   className="rounded-lg h-auto md:h-32 w-full object-cover mx-auto mb-4"
+                  loading="lazy"
                 ></Image>
                 <h3 className="text-md text-blue-500 font-light mb-2 uppercase">{t('header 1')}</h3>
                 <h2 className="text-xl font-semibold mb-2 capitalize">{t('title 1')}</h2>
@@ -64,6 +65,7 @@ export default function Cards2() {
                   src={CardFive}
                   alt="Mainteinance"
                   className="rounded-lg h-auto md:h-32 w-full object-cover mx-auto mb-4"
+                  loading="lazy"
                 ></Image>
                 <h3 className="text-md text-blue-500 font-light mb-2 uppercase">{t('header 2')}</h3>
                 <h2 className="text-xl font-semibold mb-2 capitalize">{t('title 2')}</h2>
@@ -83,6 +85,7 @@ export default function Cards2() {
                   src={CardSix}
                   alt="Install"
                   className="rounded-lg h-auto md:h-32 w-full object-cover mx-auto mb-4"
+                  loading="lazy"
                 ></Image>
                 <h3 className="text-md text-blue-500 font-light mb-2 uppercase">{t('header 3')}</h3>
                 <h2 className="text-xl font-semibold mb-2 capitalize">{t('title 3')}</h2>

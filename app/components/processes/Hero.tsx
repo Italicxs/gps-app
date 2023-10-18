@@ -11,6 +11,7 @@ export default function Hero(){
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          loading="lazy"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-opacity-80 backdrop-blur-lg">
         </div>

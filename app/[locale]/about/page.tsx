@@ -23,10 +23,10 @@ export default function AboutPage() {
    <>
    {
       isLoading ?  <Loader></Loader> : 
-      <div>
+      <main>
         <Hero></Hero>
         <Content></Content>
-      </div>
+      </main>
     }
    </>
   );

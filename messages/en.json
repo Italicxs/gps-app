@@ -245,5 +245,8 @@
     "desc 5": "Our commitment to security and data protection is a fundamental part of our values as a company. We strive to uphold the trust you place in us by providing you with a safe and secure environment online.",
     "desc 6": "You have the right to know how we protect your personal data. If you have questions about our security practices or how we handle your data, please do not hesitate to contact us.",
     "conclusion": "At GasPlum Solutions, the security of your information is a priority. We want you to feel comfortable interacting with us online, knowing that your data is protected. We appreciate your trust and are committed to maintaining a safe environment in every interaction."
+  },
+  "Form": {
+    "button": "Send"
   }
 }

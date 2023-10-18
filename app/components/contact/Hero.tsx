@@ -13,6 +13,7 @@ export default function Hero() {
           alt="Descripción de la imagen"
           fill
           className="object-cover object-center"
+          loading="lazy"
         />
         <div className="absolute inset-0 flex items-center text-white bg-opacity-30 backdrop-blur-lg pl-4">
         <h2 className="text-4xl font-light mb-4">{t('title')}

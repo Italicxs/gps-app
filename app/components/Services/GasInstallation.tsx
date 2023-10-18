@@ -21,6 +21,7 @@ export default function GasInstallation() {
                   layout="fill"
                   objectFit="cover"
                   className="rounded-sm"
+                  loading="lazy"
                 />
               </div>
             </div>

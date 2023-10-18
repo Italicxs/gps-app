@@ -12,7 +12,7 @@ interface SlideProps {
 const Slide: React.FC<SlideProps> = ({ slide }) => {
   return (
     <div className="slide">
-      <Image src={slide.image} alt={slide.title}></Image>
+      <Image src={slide.image} alt={slide.title} loading="lazy"></Image>
     </div>
   );
 };

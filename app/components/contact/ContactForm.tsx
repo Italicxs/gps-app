@@ -86,7 +86,7 @@ export default function Contact() {
             type="submit"
             className=" w-20 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
-            Send
+            {t('button')}
           </button>
         </div>
       </form>

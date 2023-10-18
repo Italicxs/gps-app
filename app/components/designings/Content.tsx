@@ -61,6 +61,7 @@ export default function Content(){
                   alt="Implemented"
                   width={880}
                   height={740}
+                  loading="lazy"
                 />
                 <div className="p-4">
                 <h2 className="text-xl font-semibold text-center uppercase">{t('implemented')}</h2>

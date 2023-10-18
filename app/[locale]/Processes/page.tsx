@@ -22,10 +22,10 @@ export default function Processes(){
       <>
       {
          isLoading ?  <Loader></Loader> : 
-         <div>
+         <main>
            <Hero></Hero>
            <Content></Content>
-         </div>
+         </main>
        }
       </>
         
