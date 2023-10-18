@@ -9,37 +9,41 @@ import HowWeHelp from '../components/home/HowWeHelp';
 import WhyUs from '../components/home/WhyUs';
 import Loader from '../components/Loader';
 
+
 export default function IndexPage() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const handleLoad = () => {
-      setIsLoading(false);
-    };
-
-    window.addEventListener('load', handleLoad);
-
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        setIsLoading(false);
+        observer.disconnect();
+      }
+    }, {
+      threshold: 0,
+    });
+    observer.observe(document.body);
   }, []);
-
+    
   return (
     <>
-      {isLoading ? <Loader /> : (
-        <div>
-          <Hero />
-          <div id='AboutUs'><AboutUs /></div>
-          <Services />
-          <HowWeWork />
-          <WhoAre />
-          <HowWeHelp />
-          <WhyUs />
-        </div>
-      )}
+    {
+         isLoading ?  <Loader></Loader> : 
+         <main>
+          <Hero></Hero>
+          <div id='AboutUs'><AboutUs></AboutUs></div>
+          <Services></Services>
+          <HowWeWork></HowWeWork>
+          <WhoAre></WhoAre>
+          <HowWeHelp></HowWeHelp>
+          <WhyUs></WhyUs>
+          </main>
+       }
+
     </>
-  );
+  )
 }
+
 
 
     
