@@ -1,10 +1,8 @@
-"use client"
-
 import Image from 'next/image'
 import { useTranslations } from 'next-intl';
 import bg from '@/public/bg.webp'
 
-import React, { useState} from "react";
+import React, { useState } from "react";
 import dynamic from "next/dynamic";
 
 const Link = dynamic(() => import("next/link"));
@@ -33,7 +31,13 @@ export default function Hero() {
   return (
     <>
       <div className="relative overflow-hidden min-h-[900px]">
-        <Image src={bg} alt={''} className="absolute inset-0 object-cover w-full h-full" loading="lazy"></Image>
+        <Image 
+          src={bg} 
+          alt={''} 
+          layout="responsive" 
+          priority
+          className="absolute inset-0 object-cover w-full h-full" 
+        />
         <div className="absolute inset-0 flex items-center justify-center py-8">
           <div className="space-y-5 bg-transparent w-full p-4 text-center text-white">
             <h2 className="text-2xl sm:text-4xl lg:text-6xl font-bold uppercase">
@@ -52,5 +56,4 @@ export default function Hero() {
       </div>
     </>
   );
-}       
-    
+}
