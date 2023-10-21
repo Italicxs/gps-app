@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl';
 import bg from '@/public/bg.webp'
-import bgMobile from '@/public/bg-mobile.jpg'
+import bgMobile from '@/public/bg-mobile.webp'
 
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
