@@ -1,4 +1,3 @@
-"use client"
 import Loader from '@/app/components/Loader';
 import Analysis from '@/app/components/Services/Analysis';
 import Cards from '@/app/components/Services/Cards';
@@ -9,30 +8,12 @@ import Hero from '@/app/components/Services/Hero';
 import Installation from '@/app/components/Services/Installation';
 import Mainteinance from '@/app/components/Services/Mainteinance';
 import Plans from '@/app/components/Services/Plans';
-import { useState, useEffect } from 'react'
-
-
-
+ 
 export default function Services(){
-
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        setIsLoading(false);
-        observer.disconnect();
-      }
-    }, {
-      threshold: 0,
-    });
-    observer.observe(document.body);
-  }, []);
 
     return(
       <>
-      {
-         isLoading ?  <Loader></Loader> : 
+     <Loader></Loader> 
          <main>
            <Hero></Hero>
            <Cards></Cards>
@@ -56,7 +37,6 @@ export default function Services(){
            <Installation></Installation>
            </div>
          </main>
-       }
       </>
     )
 }
