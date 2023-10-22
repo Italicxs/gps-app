@@ -1,3 +1,5 @@
+"use client"
+
 import bgContact from '@/public/hero-contact.webp';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';

@@ -8,7 +8,14 @@ import Hero from '@/app/components/Services/Hero';
 import Installation from '@/app/components/Services/Installation';
 import Mainteinance from '@/app/components/Services/Mainteinance';
 import Plans from '@/app/components/Services/Plans';
+import { Metadata } from 'next'
  
+export const metadata: Metadata = {
+  title: 'Services',
+  alternates: {
+    canonical: '/Services',
+  },
+}
 export default function Services(){
 
     return(

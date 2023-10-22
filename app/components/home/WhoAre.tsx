@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import mpContent from "@/public/mapacontent.png.webp";
 import { useTranslations } from 'next-intl';

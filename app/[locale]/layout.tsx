@@ -29,7 +29,16 @@ export const metadata: Metadata = {
     template: '%s | Gas Plum Solutions, Plomeria a gas, Plomero a gas, Panamá,'
   },
   description: 'Gas Plum Solutions es una empresa líder en la instalación y mantenimiento de sistemas de gas en Panamá. Ofrecemos servicios para el hogar, locales y empresas, en toda la ciudad de Panamá, Panamá Oeste, Colón y Darién.',
+  generator: 'Next.js',
+  applicationName: 'GPSAPP',
+  referrer: 'origin-when-cross-origin',
+  keywords: ['Plomeria', 'Plomeria a Gas', 'Plomeria a Gas Panamá', 'Plomero', 'Plomero a Gas', 'Plomero en Panamá'],
+  // metadataBase: new URL(''),
+  alternates: {
+    canonical: '/',
+  },
 }
+
 
 export async function generateStaticParams() {
   return ['en', 'es'].map((locale) => ({locale}));

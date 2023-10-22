@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import mpContent from "@/public/Stove.webp";
 import Link from "next/link";

@@ -1,7 +1,7 @@
+"use client"
 import bgServices from '@/public/Services.webp';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-
 
 export default function Hero() {
   const t = useTranslations('Hero Services');

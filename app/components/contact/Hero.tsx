@@ -1,3 +1,4 @@
+"use client"
 import bgCompany from '@/public/hero-company.webp';
 
 import Image from 'next/image';
