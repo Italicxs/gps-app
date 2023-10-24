@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   applicationName: 'GPSAPP',
   referrer: 'origin-when-cross-origin',
   keywords: ['Plomeria', 'Plomeria a Gas', 'Plomeria a Gas Panamá', 'Plomero', 'Plomero a Gas', 'Plomero en Panamá'],
-  // metadataBase: new URL(''),
+  metadataBase: new URL('https://gasplum.com'),
   alternates: {
     canonical: '/',
   },
