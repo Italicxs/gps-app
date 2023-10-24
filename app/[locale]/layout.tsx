@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   keywords: ['Plomeria', 'Plomeria a Gas', 'Plomeria a Gas Panamá', 'Plomero', 'Plomero a Gas', 'Plomero en Panamá'],
   metadataBase: new URL('https://gasplum.com'),
   alternates: {
-    canonical: '/',
+    canonical: '/es',
   },
 }
 
