@@ -33,21 +33,25 @@ export default function Hero() {
   return (
     <>
      <div className="relative overflow-hidden min-h-screen sm:min-h-[900px]">
-     <div className="hidden md:block">
-  <Image
-      src={bg}
-      alt=""
-      className="absolute inset-0 object-cover w-full h-full md:w-1920 md:h-1080"
-    />
-  </div>
-  <div className="md:hidden">
-    <Image
-      src={bgMobile}
-      alt=""
-      className="absolute inset-0 object-cover w-full h-full md:w-768 md:h-1280"
-    />
-  </div>
-
+      
+      <div className="hidden md:block">
+        <Image
+          src={bg}
+          alt=""
+          layout="fixed"
+          priority  
+          className="absolute inset-0 object-cover w-full h-full"
+        />
+      </div>
+      <div className="md:hidden">
+        <Image
+          src={bgMobile}
+          alt=""
+          layout="fixed"    
+          priority
+          className="absolute inset-0 object-cover w-full h-full"
+        />
+      </div>
       <div className="absolute inset-0 flex items-center justify-center py-4 sm:py-8">
         <div className="w-full max-w-screen-lg mx-4 sm:mx-auto text-center text-white p-4">
           <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-6xl font-bold uppercase">
