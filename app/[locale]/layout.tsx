@@ -25,7 +25,7 @@ async function getMessages(locale: string) {
 
 export const metadata: Metadata = {
   title: {
-    default: 'Gas Plum Solutions | Diseño y Soluciones a gas para hogar, locales y edificios en Panamá',
+    default: 'GasPlum Solutions | Diseño, Soluciones a gas para hogar, locales y edificios en Panamá',
     template: '%s | Gas Plum Solutions, Plomeria a gas, Plomero a gas, Panamá,'
   },
   description: 'Gas Plum Solutions es una empresa líder en el diseño, instalación y mantenimiento de sistemas de gas en Panamá. Ofrecemos servicios para el hogar, locales y edificios, en toda la ciudad de Panamá, Panamá Oeste, Colón y Darién.',
