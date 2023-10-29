@@ -117,7 +117,7 @@
               <div
                 style={{
                   backgroundImage: `url(${JSON.stringify(slides[currentIndex].image.src)})`,
-                  transition: 'background-image .5s ease-in-out',
+                  transition: 'background-image 1.0s ease-in-out',
                 }}
                 className="w-full h-80 lg:h-[300px] rounded-xl bg-center bg-cover"
               ></div>
@@ -150,7 +150,7 @@
                         ? 'bg-black/80'
                         : 'bg-black/40'
                     }`}
-                  ></div>
+                  ></div> 
                 ))}
               </div>
               </div>
