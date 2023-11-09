@@ -46,55 +46,60 @@
       },
     ];
     
+    const touchStartXRef = useRef(null);
+    const touchEndXRef = useRef(null);
+  
     const [currentIndex, setCurrentIndex] = useState(0);
-
-  const touchStartXRef = useRef(null);
-  const touchEndXRef = useRef(null);
-
-  const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
-  };
-
-  const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
-
-  useEffect(() => {
-    const handleTouchStart = (e: any) => {
-      touchStartXRef.current = e.touches[0].clientX;
-    };
-
-    const handleTouchEnd = () => {
-      if (touchStartXRef.current && touchEndXRef.current) {
-        const touchDiff = touchStartXRef.current - touchEndXRef.current;
-        if (touchDiff > 50) {
-          nextSlide();
-        } else if (touchDiff < -50) {
-          prevSlide();
+  
+    const prevSlide = useMemo(() => {
+      return () => {
+        const isFirstSlide = currentIndex === 0;
+        const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+        setCurrentIndex(newIndex);
+      };
+    }, [currentIndex, slides.length]);
+  
+    const nextSlide = useMemo(() => {
+      return () => {
+        const isLastSlide = currentIndex === slides.length - 1;
+        const newIndex = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(newIndex);
+      };
+    }, [currentIndex, slides.length]);
+  
+    useEffect(() => {
+      const handleTouchStart = (e: any) => {
+        touchStartXRef.current = e.touches[0].clientX;
+      };
+  
+      const handleTouchMove = (e: any ) => {
+        touchEndXRef.current = e.touches[0].clientX;
+      };
+  
+      const handleTouchEnd = () => {
+        if (touchStartXRef.current && touchEndXRef.current) {
+          const touchDiff = touchStartXRef.current - touchEndXRef.current;
+          if (touchDiff > 50) {
+            nextSlide();
+          } else if (touchDiff < -50) {
+            prevSlide();
+          }
         }
-      }
-
-      touchStartXRef.current = null;
-      touchEndXRef.current = null;
-    };
-
-    // Agrega los eventos de touch solo cuando sea necesario
-    window.addEventListener('touchstart', handleTouchStart);
-    window.addEventListener('touchend', handleTouchEnd);
-
-    return () => {
-      // Remueve los eventos de touch cuando el componente se desmonta
-      window.removeEventListener('touchstart', handleTouchStart);
-      window.removeEventListener('touchend', handleTouchEnd);
-    };
-  }, [prevSlide, nextSlide]);
-
-  const currentSlide = slides[currentIndex];
-
+  
+        touchStartXRef.current = null;
+        touchEndXRef.current = null;
+      };
+  
+      window.addEventListener('touchstart', handleTouchStart);
+      window.addEventListener('touchmove', handleTouchMove);
+      window.addEventListener('touchend', handleTouchEnd);
+  
+      return () => {
+        window.removeEventListener('touchstart', handleTouchStart);
+        window.removeEventListener('touchmove', handleTouchMove);
+        window.removeEventListener('touchend', handleTouchEnd);
+      };
+    }, [touchStartXRef, touchEndXRef, prevSlide, nextSlide]);
   
       const goToSlide = (slideIndex: any) => {
         setCurrentIndex(slideIndex);
