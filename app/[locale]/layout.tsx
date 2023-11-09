@@ -44,7 +44,7 @@ export async function generateStaticParams() {
   return ['en', 'es'].map((locale) => ({locale}));
 }
 
-
+  
 export default async function LocaleLayout({
   children,
   params: {locale}
