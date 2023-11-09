@@ -53,7 +53,7 @@ export default function Footer() {
           </svg>
           </div>
           </Link>
-          <Link href='/'>
+          <Link href='https://www.linkedin.com/company/gasplum-solutions-panam%C3%A1?trk=public_post_feed-actor-image'>
           <div className="p-2.5 bg-gray-200 rounded-lg flex-col justify-center items-center inline-flex cursor-pointer">
             <div className="px-1 justify-center items-center inline-flex" />
             <svg
