@@ -36,7 +36,43 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: 'https://gasplum.com/es/Contact',
         lastModified: new Date(),
         changeFrequency: 'weekly',
-        priority: 0.8,
+        priority: 0.5,
       },
+      {
+        url: 'https://gasplum.com/',
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 0.4,
+      },
+      {
+        url: 'https://gasplum.com/Services',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.3,
+      },
+      {
+        url: 'https://gasplum.com/Designings',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.2,
+      },
+      {
+          url: 'https://gasplum.com/Processes',
+          lastModified: new Date(),
+          changeFrequency: 'weekly',
+          priority: 0.2,
+        },
+      {
+          url: 'https://gasplum.com/about',
+          lastModified: new Date(),
+          changeFrequency: 'weekly',
+          priority: 0.1,
+        },
+        {
+          url: 'https://gasplum.com/Contact',
+          lastModified: new Date(),
+          changeFrequency: 'weekly',
+          priority: 0.1,
+        },
   ]
 }
